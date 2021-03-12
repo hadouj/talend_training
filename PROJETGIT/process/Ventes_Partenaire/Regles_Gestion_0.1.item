@@ -47,7 +47,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:77FbTCMJOqw2gpJZJEMsuVXAWAmX8KKl4A7psn6V"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:GvuJGxFKtPDC//dxzUBMDTnIojd/58Swigr1AvA8"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -82,7 +82,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:aK0wkNQsWTmJRkU3p6d9luxe71a2KHktnXHXtVV/"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:5GCiRlRUx0SsOuevJJsFfkoKr27JEkRACK8TNPbm"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -123,7 +123,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_X5lNQINAEeucOPKbv4em7A"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="false"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/hadidja.mikidadi/Documents/fichiers_partenaires/claudie_GLF_20042020.xls&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:6hYlhM0pMxDsPCKXs4lC9DJPscPo48SkrzWhWToJ"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:vI2Jlc4umX3fT+6hf3alR77kwDMVuMZgJumfb/8Z"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="true"/>
     <elementParameter field="TABLE" name="SHEETLIST" show="false">
       <elementValue elementRef="SHEETNAME" value="&quot;Sheet1&quot;"/>
@@ -261,7 +261,7 @@
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tSchemaComplianceCheck_1">
-      <column comment="" key="false" length="-1" name="jourVente" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="jourVente" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="codeMagasin" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="codeBarre" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="QteVendue" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -297,7 +297,7 @@
     <elementParameter field="CHECK" name="INFORMATION" value="true"/>
     <elementParameter field="MEMO" name="COMMENT" value="on verifie si les dates ne sont pas ulterieurs"/>
     <metadata connector="FLOW" label="metadata" name="datePasse">
-      <column comment="" key="false" length="-1" name="jourVente" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="jourVente" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="codeMagasin" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="codeBarre" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="QteVendue" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -307,14 +307,14 @@
       <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables activateExpressionFilter="true" expressionFilter="if(TalendDate.compareDate(row2.jourVente,TalendDate.getCurrentDate())==1)" name="datePasse" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row2.jourVente" name="jourVente" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.jourVente" name="jourVente" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row2.codeMagasin" name="codeMagasin" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="row2.codeBarre" name="codeBarre" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="row2.QteVendue" name="QteVendue" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="row2.CaReel" name="CaReel" nullable="true" type="id_Integer"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row2" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="jourVente" nullable="true" type="id_String"/>
+        <mapperTableEntries name="jourVente" nullable="true" type="id_Date"/>
         <mapperTableEntries name="codeMagasin" nullable="true" type="id_Integer"/>
         <mapperTableEntries name="codeBarre" nullable="true" type="id_Integer"/>
         <mapperTableEntries name="QteVendue" nullable="true" type="id_Integer"/>
@@ -351,7 +351,7 @@
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tLogRow_2">
-      <column comment="" key="false" length="-1" name="jourVente" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="jourVente" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="codeMagasin" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="codeBarre" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="QteVendue" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -375,13 +375,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6a19058d-1f15-4d74-83ff-3a723256cca3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OZpBWVzUkZfXVyOQblds1NYS0cGNaxG99VojDmVN1Qh8ok5rXfHOQB23cWKtNuQBQWOl18exDMXH&#13;
-pSnBe090QA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fbf178f0-ad1e-49f3-a4b1-b7174f90a588"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0DxgBl7ZAgW0bK7kb99zRuN6yRl4efoKVvP8y/SvmXTW6OtMkVVJKCMga68G+2FFLNTQsODtMnpm&#13;
-EVOUtgDBYA==</DigestValue></Reference></SignedInfo><SignatureValue>GBq1ygUFL+kFIzeJUMUgK+4kIYZ378CNHUZjt02re8UWG1DuH2GtahCg9zFoDkWkzUVqb49iVxtQ&#13;
-NdszltMOlRoRTwN/BuJtGJsu/YmfqE6NZBMo/XNNZENSK5RwXeh4P2QLyBgLJyf3bpR4jtzJiL+K&#13;
-B7c6sUsgQmqYZnbbDJFVXO3uWkmTCYq2PKPvCMWRlMH4t/BnxZCc19Pwj/FYa9u6aTaSqZbNinyC&#13;
-R4jG27pFT8w592+rKvjpuvNK2hGbkYvV0RWmeW5aQeM8q+YOAKGSXPxvS1nOUSlaV1zSGqrcFuxw&#13;
-4d9+a9gW7t3kDUwccnIWOnQfGIhFezZqlHrR+w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_dbe26c1b-07fb-4ee7-b99a-a34fef4cbca9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>z0tmlbAijHYVKI/52bhtu8Kqb+Z1XtGWDPjiYaYMu0RFDWstQcTQTOaAf5Nhb9MTqnuQVRICwNP2&#13;
+7X7XGyftXg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_256ed810-30c1-4f7f-97d8-ac425d21f4d7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+7tavPmkg5LmkwurP4XxEIYQ6iGjcRFVQ+k98WMxr8r/7Jkfc59JzazNtGTg/RsrhKq1vumg3KyO&#13;
++FrP6H4DZw==</DigestValue></Reference></SignedInfo><SignatureValue>JuoGIokl9LSWQjYhHogUU5vf6/7hycVRoia8sRupiSfLbbx8WVxRBWSQjK0JGcKdoW8lkrChUMeU&#13;
+/2ByONOcJtBd+MsX3pCMycsR8j2GlO08nzmZOokNctTUEU+67LR7P20b28aU0UqfoFXD3UMRNUxc&#13;
++XRtRf1wHGd/vIZTNab+lAr0xFnxokwOk+49dB5VHRTp1jHLAHGesKuY2r0YrcG73rWW578EJ9V1&#13;
+0lsTOWX8lYDxg9YhOnaiKqwzY1/G1zM6/pcutKHWCUWMtlMwzhb30ayO6vWlx9jLZoKlOnIw4nbq&#13;
+/VJpE8yorOSXaEe+SZcFoSuTZW/JiYulk4N5PA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -403,4 +403,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fbf178f0-ad1e-49f3-a4b1-b7174f90a588" Target="#_6a19058d-1f15-4d74-83ff-3a723256cca3"><Timestamp>2021-03-12 17:07:08</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_256ed810-30c1-4f7f-97d8-ac425d21f4d7" Target="#_dbe26c1b-07fb-4ee7-b99a-a34fef4cbca9"><Timestamp>2021-03-12 17:09:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
