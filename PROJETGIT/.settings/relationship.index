@@ -1,5 +1,68 @@
 [ {
   "baseItem" : {
+    "id" : "_-zBWUFblEeqrFt6yxAmGhw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_BxFTkOmxEem6dM1qE-bQDQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_VMRe8OnHEem4nqQ05mWGug",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_hcvJoDeoEeqJlIyUD9MeGA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_NtEAgGIaEeqREbj6CCrjbg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_iF3YsEM5Eeqb3q2ZbKOg9w",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_807YUIDHEeuvjKoE-C9EdQ",
     "version" : "0.1",
     "type" : "job"
@@ -255,6 +318,124 @@
     "type" : "routine"
   }, {
     "id" : "SQLike",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_NtEAgGIaEeqREbj6CCrjbg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_BxFTkOmxEem6dM1qE-bQDQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_VMRe8OnHEem4nqQ05mWGug",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_hcvJoDeoEeqJlIyUD9MeGA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_eo5_AGO5EeqREbj6CCrjbg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_eo5_AGO5EeqREbj6CCrjbg - HP_PARTNERS_LOGS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_eo5_AGO5EeqREbj6CCrjbg - HP_PARTNERS_SALES",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_iF3YsEM5Eeqb3q2ZbKOg9w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_BxFTkOmxEem6dM1qE-bQDQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_VMRe8OnHEem4nqQ05mWGug",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
     "version" : "Latest",
     "type" : "routine"
   }, {
