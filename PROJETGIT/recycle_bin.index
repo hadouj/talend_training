@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2021-03-12T15:35:04.996+0100">
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2021-03-15T14:37:56.413+0100">
+  <deletedFolders>process/Ventes_Partenaire/D_01_SLSRPT_BROWN_THOMAS</deletedFolders>
   <deletedItems id="_OkpZ0IMiEeucOPKbv4em7A" path="" type="METADATA_FILE_EXCEL"/>
+  <deletedItems id="_NtEAgGIaEeqREbj6CCrjbg" path="Ventes_Partenaire/D_01_SLSRPT_BROWN_THOMAS" type="PROCESS"/>
+  <deletedItems id="_-zBWUFblEeqrFt6yxAmGhw" path="Ventes_Partenaire/D_01_SLSRPT_BROWN_THOMAS" type="PROCESS"/>
 </recyclebin:RecycleBin>
