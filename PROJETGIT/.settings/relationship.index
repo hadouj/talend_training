@@ -410,57 +410,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_iF3YsEM5Eeqb3q2ZbKOg9w",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "_BxFTkOmxEem6dM1qE-bQDQ",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_VMRe8OnHEem4nqQ05mWGug",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "DataOperation",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Mathematical",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Numeric",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Relational",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "StringHandling",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "TalendDataGenerator",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "TalendDate",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "TalendString",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "TalendStringUtil",
-    "version" : "Latest",
-    "type" : "routine"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_tWs6gIDtEeuvjKoE-C9EdQ",
     "version" : "0.1",
     "type" : "job"
