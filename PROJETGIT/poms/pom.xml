@@ -16,6 +16,23 @@
     <module>jobs/process/job3_0.1</module>
     <module>jobs/process/Ventes_Partenaire/generation_fichiers_partenaires_0.1</module>
     <module>jobs/process/Ventes_Partenaire/regles_gestion_0.1</module>
+    <module>jobs/process/D_01_VENTES_PARTENAIRES/j_01_ventes_partenaires_main_0.1</module>
+    <module>jobs/process/D_01_VENTES_PARTENAIRES/j_01_ventes_partenaires_main_final_0.1</module>
+    <module>jobs/process/D_01_VENTES_PARTENAIRES/j_01_ventes_partenaires_main_final_autre_0.1</module>
+    <module>jobs/process/D_01_VENTES_PARTENAIRES/j_01_ventes_partenaires_main_old_0.1</module>
+    <module>jobs/process/D_01_VENTES_PARTENAIRES/copy_of_j_01_ventes_partenaires_main_final_0.1</module>
+    <module>jobs/process/D_01_VENTES_PARTENAIRES/j_01_ventes_partenaires_child_final_0.1</module>
+    <module>jobs/process/D_01_VENTES_PARTENAIRES/j_01_ventes_partenaires_child_final_autre_0.1</module>
+    <module>jobs/process/D_00_COMMON/j_01_common_config_0.1</module>
+    <module>jobs/process/D_01_VENTES_PARTENAIRES/copy_of_j_01_ventes_partenaires_main_0.1</module>
+    <module>jobs/process/D_01_VENTES_PARTENAIRES/copy_of_j_01_ventes_partenaires_child_final_0.1</module>
+    <module>jobs/process/D_01_VENTES_PARTENAIRES/j_01_ventes_partenaires_main_final_final_0.1</module>
+    <module>jobs/process/D_01_VENTES_PARTENAIRES/j_01_ventes_partenaires_child_final_final_0.1</module>
+    <module>jobs/process/D_01_VENTES_PARTENAIRES/j_01_ventes_partenaires_child_0.1</module>
+    <module>jobs/process/D_01_VENTES_PARTENAIRES/j_01_ventes_partenaires_child_old_0.1</module>
+    <module>jobs/process/WebService/getinfobyzip_0.1</module>
+    <module>jobs/process/D_00_COMMON/j_02_common_log_0.1</module>
+    <module>jobs/process/D_01_VENTES_PARTENAIRES/autre_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
