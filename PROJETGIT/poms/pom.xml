@@ -33,6 +33,7 @@
     <module>jobs/process/WebService/getinfobyzip_0.1</module>
     <module>jobs/process/D_00_COMMON/j_02_common_log_0.1</module>
     <module>jobs/process/D_01_VENTES_PARTENAIRES/autre_0.1</module>
+    <module>jobs/process/PurProjet/species_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
