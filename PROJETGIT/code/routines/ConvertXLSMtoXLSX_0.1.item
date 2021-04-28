@@ -18,7 +18,7 @@ package routines;
  * 
  * 5. {example} gives a example for the Function. it is optional.
  */
-public class ConvertXLSMToXLSX {
+public class ConvertXLSMtoXLSX {
 
     /**
      * helloExample: not return value, only print "hello" + message.
