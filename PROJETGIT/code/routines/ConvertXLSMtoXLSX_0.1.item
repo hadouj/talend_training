@@ -2,10 +2,13 @@ package routines;
 
 import java.io.*;
 
-import nompackage.Converter;
+// import nompackage.Converter;
 
 public class ConvertXLSMtoXLSX {
 
+	// création d'un fichier texte
+	PrintWriter sortie = new PrintWriter("f.xlxs");
+	
 	// Load the source XLSM file to be converted
 	Converter converter = new Converter("C:/Users/hadidja.mikidadi/Documents/Arbres/SI-ET_Reg&Mon_W16_v6.2_v_FINAL.xlsm");
 	// Get the convert options ready for the target XLSX format
