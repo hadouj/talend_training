@@ -2,7 +2,7 @@ package routines;
 
 import java.io.*;
 
-public class ouverture {
+public class OpenSave {
 	
 		public static void main(String[] args) throws IOException 
 		{
