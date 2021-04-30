@@ -1,5 +1,25 @@
 package routines;
 
+import java.io.*;
+
 public class ouverture {
+	
+		public static void main(String[] args) throws IOException 
+		{
+			try{
+				//Lancer excel en indiquant l'URL
+				//Runtime run = Runtime.getRuntime();
+				//Commande shell Windows (présence du fichier c:/cablageFT.xls
+				//String cmd = "excel.exe c:/cablageFT.xls";
+				String cmd = "C:\\Program Files\\Microsoft Office\\OFFICE11\\EXCEL.EXE C:\\cablageFT.xls";
+				Runtime.getRuntime().exec(cmd);
+				//Desktop lanceur = Desktop.getDesktop();
+		        //File fichier = new File("excel.exe c:/cablageFT.xls");
+			} catch(IOException e) {
+				e.printStackTrace();
+			}
+		}
+	 
+	}
 
 }
