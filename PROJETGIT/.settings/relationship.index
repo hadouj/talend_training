@@ -147,10 +147,6 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
-  }, {
-    "id" : "ouverture",
-    "version" : "Latest",
-    "type" : "routine"
   } ]
 }, {
   "baseItem" : {
