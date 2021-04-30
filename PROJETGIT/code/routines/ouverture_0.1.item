@@ -11,7 +11,7 @@ public class ouverture {
 				//Runtime run = Runtime.getRuntime();
 				//Commande shell Windows (présence du fichier c:/cablageFT.xls
 				//String cmd = "excel.exe c:/cablageFT.xls";
-				String cmd = "C:\\Program Files\\Microsoft Office\\OFFICE11\\EXCEL.EXE C:\\cablageFT.xls";
+				String cmd = "C:\\Programmes\\Microsoft Office\\OFFICE11\\EXCEL.EXE C:\\cablageFT.xls";
 				Runtime.getRuntime().exec(cmd);
 				//Desktop lanceur = Desktop.getDesktop();
 		        //File fichier = new File("excel.exe c:/cablageFT.xls");
